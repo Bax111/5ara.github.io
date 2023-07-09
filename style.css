@@ -1,0 +1,153 @@
+
+h1 {
+    color:cadetblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#p1 {
+    font-family:'Courier New', Courier, monospace;
+    font-size:medium;
+    text-align:start;
+}
+#p3 {
+    margin-left: 80px;
+}
+image {
+    text-align: center;
+}
+.center {
+    text-align: center;
+}
+a:link {
+    color:rgb(120,195,200);
+}
+a:visited {
+    color: rgb(171, 226, 43);
+}
+a:active{
+    color: black;
+}
+p,bdo{
+    color: white;
+}
+blockquote{
+    color:aliceblue;
+}
+address {
+    color: white;
+}
+table,th,td{
+    border: 2px solid  black;
+    border-collapse:collapse;
+    background-image: url(background.jpg);
+}
+tr {
+    height: 40px;
+}
+.whitelinks {
+    color: antiquewhite;
+}
+table{
+    outline: 5px solid rgb(2, 35, 73);
+}
+.capitalonhover:hover{
+    text-transform: uppercase;
+}
+.normaldirection:hover{
+    direction: ltr;
+    vertical-align:auto;
+}
+.underline:hover{
+    text-decoration-line: underline;
+}
+.disappears:hover{
+    visibility: collapse;
+}
+.thickens:hover{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.divides:hover{
+    letter-spacing: 5px;
+    word-spacing: 20px;
+}
+.BYE{
+    line-height:1000px;
+}
+input{
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    height: 30px;
+    border: none;
+}
+#email{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    left: 40%;
+    font-size:x-large;
+}
+#typearea{
+    position: absolute;
+    left: 40%;
+    border-color:white ;
+    border-width: 2px;
+    border-radius: 20px;
+    text-indent: 8px;
+}
+#loginarea{
+    background-color: black;
+    margin: 450px;
+    border-width: 10px;
+    border-color: azure;
+    border-radius: 7px ;
+}
+#checkbox{
+    position: absolute;
+    left:31%;
+}
+#privacy{
+    position:relative;
+    left: 25%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:larger;
+    line-height: 34px;
+}
+header{
+    display: flex;
+    background-color: black;
+    width: 100%;
+    border-color:black ;
+    border-width: 10px;
+    border-style: solid;
+    outline-width:20px ;
+    float: none;
+    margin-left: 0px;
+    border-width: 1px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+}
+#sideicon{
+    width: 50px;
+    height: 50px;
+    image-rendering: pixelated;
+    padding-top: 4px;
+}
+#signinUP{
+    position: absolute;
+    left: 90%;
+    top: 12px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+    color: black;
+    background-color: antiquewhite;
+    border-color: antiquewhite;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
